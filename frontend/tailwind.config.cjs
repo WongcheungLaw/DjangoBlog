@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   // 扫描这些文件以提取使用的CSS类
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
